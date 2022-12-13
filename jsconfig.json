@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "jsx": "react",
+    "paths": {
+      "_assets/*": ["assets/*"],
+      "_atoms": ["components/atoms"],
+      "_atoms/*": ["components/atoms/*"],
+      "_components/*": ["components/*"],
+      "_molecules": ["components/molecules"],
+      "_molecules/*": ["components/molecules/*"],
+      "_navigations/*": ["navigations/*"],
+      "_organisms": ["components/organisms"],
+      "_organisms/*": ["components/organisms/*"],
+      "_providers": ["providers"],
+      "_providers/*": ["providers/*"],
+      "_pages/*": ["pages/*"],
+      "_services": ["services"],
+      "_services/*": ["services/*"],
+      "_styles": ["styles"],
+      "_styles/*": ["styles/*"],
+      "_utils": ["utils"],
+      "_utils/*": ["utils/*"],
+      "_actions/*": ["actions/*"],
+      "_actions": ["actions"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
